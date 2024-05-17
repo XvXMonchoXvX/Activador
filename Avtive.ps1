@@ -1,8 +1,8 @@
 # Enable TLSv1.2 for compatibility with older clients
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor [System.Net.SecurityProtocolType]::Tls12
 
-$DownloadURL = 'https://raw.githubusercontent.com/XvXMonchoXvX/Activador/main/MAS_AIO_V2.5.cmd'
-$DownloadURL2 = 'https://raw.githubusercontent.com/XvXMonchoXvX/Activador/main/MAS_AIO_V2.5.cmd'
+$DownloadURL = 'https://raw.githubusercontent.com/XvXMonchoXvX/Activador/main/MAS_AIO_V2.6.cmd'
+$DownloadURL2 = 'https://raw.githubusercontent.com/XvXMonchoXvX/Activador/main/MAS_AIO_V2.6.cmd'
 
 $FilePath = "$env:TEMP\MAS.cmd"
 $ScriptArgs = "$args "
